@@ -32,6 +32,7 @@
 #include "user_config.h"                    // Fixed user configurable options
 #ifdef USE_CONFIG_OVERRIDE
   #include "user_config_override.h"         // Configuration overrides for user_config.h
+  #include "user_config_override_common.h"  // Configuration common overrides for user_config.h
 #endif
 #include "sonoff_post.h"                    // Configuration overrides for all previous includes
 #include "i18n.h"                           // Language support configured by user_config.h

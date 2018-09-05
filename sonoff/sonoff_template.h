@@ -675,19 +675,19 @@ const mytmplt kModules[MAXMODULE] PROGMEM = {
      GPIO_LED1_INV,    // GPIO13 Blue Led (0 = On, 1 = Off)
      0, 0, 0, 0
   },
-  { "Sonoff T1 3CH",   // Sonoff T1 3CH (ESP8285)
-     GPIO_KEY1,        // GPIO00 Button 1
+  { "Sonoff T1 CUST",   // Sonoff T1 3CH (ESP8285)
+     GPIO_USER,        // GPIO00 Button 1
      GPIO_USER,        // GPIO01 Serial RXD and Optional sensor
      GPIO_USER,        // GPIO02 Optional Sensor (J3 Pin 5)
      GPIO_USER,        // GPIO03 Serial TXD and Optional sensor
-     GPIO_REL3,        // GPIO04 Blue Led and Relay 3 (0 = Off, 1 = On)
+     0,
      GPIO_REL2,        // GPIO05 Blue Led and Relay 2 (0 = Off, 1 = On)
      0, 0, 0,          // Flash connection
-     GPIO_KEY2,        // GPIO09 Button 2
-     GPIO_KEY3,        // GPIO10 Button 3
+     GPIO_USER,        // GPIO09 Button 2
+     GPIO_USER,        // GPIO10 Button 3
      0,                // Flash connection
      GPIO_REL1,        // GPIO12 Blue Led and Relay 1 (0 = Off, 1 = On)
-     GPIO_LED1_INV,    // GPIO13 Blue Led (0 = On, 1 = Off)
+     GPIO_USER,        // GPIO13 Blue Led (0 = On, 1 = Off)
      0, 0, 0, 0
   },
   { "Supla Espablo",   // Supla Espablo (ESP8266)
